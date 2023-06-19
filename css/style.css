@@ -20,3 +20,17 @@
   width: 100%;
   max-width: 1000px;
 }
+
+/* flex */
+.flex {
+  display: flex;
+}
+.flex-content-start {
+  justify-content: flex-start;
+}
+.flex-content-end {
+  justify-content: flex-end;
+}
+.flex-content-center {
+  justify-content: center;
+}
