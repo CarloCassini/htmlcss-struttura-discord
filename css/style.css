@@ -62,9 +62,9 @@
 
 /* selectors */
 
-.content:nth-child(odd) {
+.content-bg:nth-child(odd) {
   background-color: lightgray;
 }
-.content:nth-child(even) {
+.content-bg:nth-child(even) {
   background-color: white;
 }
