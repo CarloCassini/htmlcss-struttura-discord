@@ -37,12 +37,6 @@
   padding: 0px;
 }
 
-.recap {
-  min-width: 300px;
-  min-height: 300px;
-  padding: 0px;
-}
-
 .content-text {
   padding: var(--space-m);
   width: 70%;
@@ -52,6 +46,21 @@
   padding: var(--space-m);
   width: 30%;
   min-height: var(--min-heigh);
+}
+
+.recap {
+  min-width: 300px;
+  min-height: 300px;
+  padding: 0px;
+}
+
+/* footer */
+.footer-big {
+  width: 30%;
+}
+
+.footer-column {
+  width: 70%;
 }
 
 /* colori */
@@ -81,6 +90,12 @@
 }
 .bg-tan {
   background-color: tan;
+}
+.bg-darkslategrey {
+  background-color: darkslategrey;
+}
+.bg-greenyellow {
+  background-color: greenyellow;
 }
 
 /* selectors */
