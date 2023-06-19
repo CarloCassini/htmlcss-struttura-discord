@@ -15,8 +15,8 @@
 }
 
 .container {
-  margin: 0px auto;
-  padding: 5px;
+  margin: var(--space-m) auto;
+  padding: var(--space-s);
   width: 100%;
   max-width: 1000px;
 }
@@ -36,4 +36,12 @@
 }
 .flex-content-center {
   justify-content: center;
+}
+
+/* colori */
+.bg-lightblue {
+  background-color: lightblue;
+}
+.bg-gold {
+  background-color: gold;
 }
