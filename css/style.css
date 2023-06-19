@@ -70,6 +70,10 @@
   width: 70%;
 }
 
+.footer-colu-small {
+  width: 25%;
+}
+
 /* colori */
 .bg-lightblue {
   background-color: lightblue;
