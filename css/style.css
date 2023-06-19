@@ -8,11 +8,15 @@
 }
 
 .debug {
-  background-color: rgba(250, 100, 100, 0.5);
-  border: 2px dashed;
+  background-color: var(--debug-color);
+  border: 2px dashed black;
   min-height: 10px;
   min-width: 10px;
 }
 
 .container {
+  margin: 0px auto;
+  padding: 5px;
+  width: 100%;
+  max-width: 1000px;
 }
