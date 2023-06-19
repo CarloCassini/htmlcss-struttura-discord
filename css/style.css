@@ -9,6 +9,13 @@
 .flex {
   display: flex;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
+}
 .flex-space-btw {
   justify-content: space-between;
 }
@@ -29,12 +36,14 @@
 }
 
 /* content */
-
-.intro {
+.min-size {
   min-width: 300px;
   min-height: 300px;
-  width: 80%;
   padding: 0px;
+}
+
+.intro {
+  width: 80%;
 }
 
 .content-text {
@@ -49,9 +58,7 @@
 }
 
 .recap {
-  min-width: 300px;
-  min-height: 300px;
-  padding: 0px;
+  width: 100%;
 }
 
 /* footer */
