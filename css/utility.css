@@ -1,5 +1,6 @@
 :root {
   --debug-color: rgba(250, 100, 100, 0.5);
-  --primary-color: pink;
-  --secondary-color: red;
+  --space-s: 5px;
+  --space-m: 20px;
+  --space-l: 40px;
 }

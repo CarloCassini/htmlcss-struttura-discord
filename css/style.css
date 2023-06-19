@@ -25,6 +25,9 @@
 .flex {
   display: flex;
 }
+.flex-space-btw {
+  justify-content: space-between;
+}
 .flex-content-start {
   justify-content: flex-start;
 }
