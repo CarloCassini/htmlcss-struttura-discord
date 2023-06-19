@@ -34,9 +34,23 @@
   padding: 0px;
 }
 
+.content-text {
+  padding: var(--space-m);
+  width: 70%;
+  min-height: var(--min-heigh);
+}
+.content-img {
+  padding: var(--space-m);
+  width: 30%;
+  min-height: var(--min-heigh);
+}
+
 /* colori */
 .bg-lightblue {
   background-color: lightblue;
+}
+.bg-skyblue {
+  background-color: skyblue;
 }
 .bg-gold {
   background-color: gold;
