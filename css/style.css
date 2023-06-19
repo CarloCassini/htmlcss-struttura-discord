@@ -53,6 +53,18 @@
 .intro {
   width: 80%;
 }
+/*  header */
+.header-content-logo {
+  flex-grow: 1;
+  text-align: left;
+}
+.header-content-login {
+  flex-grow: 1;
+  text-align: right;
+}
+.header-content-center {
+  width: 60%;
+}
 
 .content-text {
   padding: var(--space-m);
@@ -71,11 +83,11 @@
 
 /* footer */
 .footer-big {
-  width: 30%;
+  width: 40%;
 }
 
 .footer-column {
-  width: 70%;
+  width: 60%;
 }
 
 .footer-colu-small {
