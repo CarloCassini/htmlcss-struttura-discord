@@ -59,3 +59,12 @@
 .bg-tan {
   background-color: tan;
 }
+
+/* selectors */
+
+.content:nth-child(odd) {
+  background-color: lightgray;
+}
+.content:nth-child(even) {
+  background-color: white;
+}
