@@ -5,6 +5,22 @@
   --space-l: 40px;
 }
 
+/* generic */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.debug {
+  background-color: var(--debug-color);
+  border: 2px dashed black;
+  min-height: 10px;
+  min-width: 10px;
+}
+
 /* margin */
 
 .m-s {
