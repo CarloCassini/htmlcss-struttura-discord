@@ -1,6 +1,6 @@
 .container {
   margin: var(--space-m) auto;
-  padding: var(--space-s);
+  /* padding: var(--space-s); */
   width: 100%;
   max-width: 1000px;
 }
@@ -29,7 +29,9 @@
 
 .intro {
   min-width: 300px;
-  width: 70%;
+  min-height: 300px;
+  width: 80%;
+  padding: 0px;
 }
 
 /* colori */
@@ -44,4 +46,16 @@
 }
 .bg-darkblue {
   background-color: darkblue;
+}
+.bg-pink {
+  background-color: pink;
+}
+.bg-lightgray {
+  background-color: lightgray;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-tan {
+  background-color: tan;
 }
